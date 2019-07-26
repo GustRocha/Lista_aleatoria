@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+import random
+m_list = [6, 4, 44, 58, 99, 101, 2, 2]
+rlist = random.choice(m_list)# choice roda o random na lista desejada
+print(rlist)
+random.seed(1)# serve para cair o mesmo numero sempre no random
+rad = random.randint(0, 100)
+print (rad)
+
+a = 2
+b = 0
+
+try:
+ 	print(a/b)
+except:#cria exeções caso para o programa continuar caso de erro
+ 	print("Zero nao pode burrao")
+print(a*b)
